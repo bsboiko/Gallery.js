@@ -5,7 +5,9 @@
 
 #### Note
 
-This project used the ImageControls.js library for its controls. This is currently not available, but as soon as it is made public this library will be updated to reflect that information. Until then, this library is not usable.
+There is a hard dependency on the [MultitouchController.js](https://github.com/ImagingResearchCenter/MultitouchController.js) toolkit for this library. To view the test cases properly, place `MultitouchController.js` in the `examples/` directory. You can simply run `wget https://raw.githubusercontent.com/ImagingResearchCenter/MultitouchController.js/master/src/MultitouchController.js` in that directory as well.
+
+Depending on the method to create the Gallery, THREE.js might be required. The test files use CDN to get THREE.js, but for your own projects you can select the method of importing THREE.js and MultitouchController.js.
 
 #### Running Locally
 
