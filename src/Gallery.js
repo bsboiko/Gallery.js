@@ -29,7 +29,7 @@ GALLERY.Gallery = function(parameters) {
 	this.initGallery(); // set up the gallery viewer
 
 	// create the controller for the gallery
-	this.controls = new IMAGE_CONTROLS.Controller({
+	this.controls = new MultitouchController.Controller({
 		camera: this.camera, 
 		container: this.container,
 		multitouch: this.multitouch,
