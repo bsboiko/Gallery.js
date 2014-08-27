@@ -1,1 +1,4 @@
 .htaccess
+
+update_controller
+examples/MultitouchController.js
